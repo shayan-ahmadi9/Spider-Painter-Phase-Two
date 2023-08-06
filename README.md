@@ -4,4 +4,4 @@ In the first phase, we accomplished a robotic system that could draw a given inp
 
 In this phase, we would like to correct the parametric and non-parametric errors of the robot by training a neural network. Consequently, the resulting system would be able to follow the desired trajectory with minimum error, regardless of the geometrical orientation of the system. With that intention in mind, we decided to use a smartphone camera to detect the position of the robot and give feedback to the system so that the error decreases.
 
-In the beginning, we decided to find out our detection error before going any further.
+In the beginning, we decided to find out our detection error before going any further. To do so, the detection of a number of various points from different distances and different angles was carried out. Overall, 1152 points were detected ...
