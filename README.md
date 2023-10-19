@@ -8,6 +8,6 @@ In this phase, we would like to correct the parametric and non-parametric errors
 
 In the beginning, we decided to find out our detection error before going any further. To do so, the detection of a number of various points from different distances and different angles was carried out. Overall, the mean square error over 1152 detected points, was about 1 cm. As a result, we needed to improve the accuracy of the detection.
 
-In order to improve the detection accuracy, we trained an MLP model. With the help of this model, the mean square error of the detection reached the value of about 0.214 cm, which demonstrates a major improvement in the accuracy of detection.
+In order to improve the detection accuracy, we trained an MLP model. With the help of this model, the root mean square error of the detection reached the value of about 0.46 cm, which demonstrates a major improvement in the accuracy of detection.
 
 Our next goal is to make use of this accurate detection system, as a sensor in a feedback system to control the position of the robot.
