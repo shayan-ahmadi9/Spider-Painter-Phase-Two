@@ -10,4 +10,5 @@ In the beginning, we decided to find out our detection error before going any fu
 
 In order to improve the detection accuracy, we trained an MLP model. With the help of this model, the root mean square error of the detection reached the value of about 0.46 cm, which demonstrates a major improvement in the accuracy of detection.
 
-Our next goal is to make use of this accurate detection system, as a sensor in a feedback system to control the position of the robot.
+Next, this position estimation system was used as an external sensor in a feedback system to update the position of the robot in real-time. This way, the precision of the drawings of the robot improved significantly even in the borders of the workspace which is a challenging area.
+
